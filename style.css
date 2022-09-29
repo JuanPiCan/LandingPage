@@ -1,0 +1,42 @@
+.body {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+    
+
+ul {
+    display: flex;
+    gap: 15px;
+    margin-right: 65px;
+    list-style: none;
+}
+
+.logo {
+    
+    padding-left: 65px;
+    font-size: 24px;
+    color: #F9FAF8;
+    
+}
+
+.messege {
+    display: flex;
+}
+
+
+
+p {
+    margin-top: 16px;
+}
+

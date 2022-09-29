@@ -32,9 +32,15 @@ ul {
 
 .messege {
     display: flex;
+    font-size: 38px;
+    color: #F9FAF8;
+    align-items: center;
+    margin: 65px;
 }
 
-
+.messege div {
+    flex: 1;
+}
 
 p {
     margin-top: 16px;

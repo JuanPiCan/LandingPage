@@ -1,5 +1,7 @@
 .body {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -36,13 +38,33 @@ ul {
     color: #F9FAF8;
     align-items: center;
     margin: 65px;
+    margin-bottom: 0%;
+    padding-bottom: 50px;
+    gap: 20px;
 }
 
 .messege div {
+    display: flex;
+    justify-content: center;
     flex: 1;
+}
+
+.messege2 {
+    padding: 45px 35px;
+    background: darkgray;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 p {
     margin-top: 16px;
 }
-
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}

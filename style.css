@@ -58,11 +58,73 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-block-end: 35px;
 }
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+    
+}
+.photos {
+    display: flex;
+    flex: 1;
+}
+.photos img {
+    border: 2px solid blue;
+    border-radius: 15px;
+    padding: 65px;
+    margin: 35px;
+}
+
+
 
 p {
     margin-top: 16px;
+
 }
+
+.Testimonial {
+background-color: #E5E7EB;
+font-size: 36px;
+font-style: italic;
+color: #1F2937;
+padding: 120px;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.Contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px;
+    padding: 35px;
+    background-color: #3882F6;
+    border-radius: 15px;
+}
+
+h5 {
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+button {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #3882F6;
+    font-size: 18px;
+    color: white;
+}
+
 .footer {
     display: flex;
     justify-content: center;
